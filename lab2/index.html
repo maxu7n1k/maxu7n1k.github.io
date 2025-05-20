@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ресторан "Смак"</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .ingredients {
+            display: none;
+            font-size: 0.9em;
+            color: #555;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .dish-name {
+            cursor: pointer;
+            color: #2a7ae2;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#chefs">Наші кухарі</a></li>
+                <li><a href="#about">Про нас</a></li>
+            </ul>
+        </nav>
+        <h1>Ласкаво просимо до ресторану "Смак"</h1>
+    </header>
+    <main>
+       <section id="menu">
+    <h2>Меню</h2>
+    <table>
+  <thead>
+    <tr>
+      <th>Назва страви</th>
+      <th>Інгредієнти</th>
+      <th>Зображення</th>
+      <th>Ціна</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Борщ</td>
+      <td>буряк, капуста, картопля, морква, цибуля, м’ясо, томат</td>
+      <td><img src="images/borscht.webp" alt="Борщ"></td>
+      <td>120 грн</td>
+    </tr>
+    <tr>
+      <td>Вареники</td>
+      <td>борошно, картопля, цибуля, вершкове масло</td>
+      <td><img src="images/vareniki.webp" alt="Вареники"></td>
+      <td>100 грн</td>
+    </tr>
+    <tr>
+      <td>Галушки</td>
+      <td>борошно, яйця, сіль, сметана</td>
+      <td><img src="images/galushky.jpg" alt="Галушки"></td>
+      <td>110 грн</td>
+    </tr>
+    <tr>
+      <td>Котлета по-київськи</td>
+      <td>куряче філе, вершкове масло, панірувальні сухарі, яйця</td>
+      <td><img src="images/kiev_cutlet.webp" alt="Котлета по-київськи"></td>
+      <td>150 грн</td>
+    </tr>
+    <tr>
+      <td>Салат Олів’є</td>
+      <td>картопля, морква, горошок, ковбаса, яйця, майонез</td>
+      <td><img src="images/olivie.webp" alt="Салат Олів’є"></td>
+      <td>90 грн</td>
+    </tr>
+    <tr>
+      <td>Пампушки з часником</td>
+      <td>борошно, дріжджі, часник, олія</td>
+      <td><img src="images/pampushky.webp" alt="Пампушки з часником"></td>
+      <td>70 грн</td>
+    </tr>
+    <tr>
+      <td>Деруни</td>
+      <td>картопля, цибуля, яйця, сметана</td>
+      <td><img src="images/deruny.webp" alt="Деруни"></td>
+      <td>85 грн</td>
+    </tr>
+    <tr>
+      <td>Квасоля по-українськи</td>
+      <td>квасоля, морква, цибуля, олія, зелень</td>
+      <td><img src="images/beans.webp" alt="Квасоля по-українськи"></td>
+      <td>95 грн</td>
+    </tr>
+    <tr>
+      <td>Пиріг з м’ясом</td>
+      <td>борошно, м’ясо, цибуля, яйця, вершкове масло</td>
+      <td><img src="images/meat_pie.webp" alt="Пиріг з м’ясом"></td>
+      <td>130 грн</td>
+    </tr>
+    <tr>
+      <td>Крученики</td>
+      <td>свинина, гриби, цибуля, спеції</td>
+      <td><img src="images/kruchenyky.webp" alt="Крученики"></td>
+      <td>140 грн</td>
+    </tr>
+    <tr>
+      <td>Уха</td>
+      <td>риба, картопля, морква, цибуля, зелень</td>
+      <td><img src="images/fish_soup.webp" alt="Уха"></td>
+      <td>125 грн</td>
+    </tr>
+    <tr>
+      <td>Компот</td>
+      <td>вишня, яблуко, груша, цукор</td>
+      <td><img src="images/kompot.webp" alt="Компот"></td>
+      <td>50 грн</td>
+    </tr>
+  </tbody>
+</table>
+
+</section>
+        <section id="chefs">
+            <h2>Наші кухарі</h2>
+            <div class="chefs">
+                <div><img src="images/chef1.webp" alt="Кухар 1" /><p>Олег К.</p></div>
+                <div><img src="images/chef2.jpg" alt="Кухар 2" /><p>Євген В.</p></div>
+                <div><img src="images/chef3.webp" alt="Кухар 3" /><p>Артем П.</p></div>
+                <div><img src="images/chef4.webp" alt="Кухар 4" /><p>Іван І.</p></div>
+            </div>
+        </section>
+<section id="about">
+    <!-- Заголовок розділу -->
+    <h2>Про нас</h2>
+
+    <!-- Основний опис ресторану -->
+    <p>
+        Ресторан "Смак" — це місце, де українська кулінарна традиція
+        поєднується з сучасними гастрономічними тенденціями. Ми пропонуємо
+        широкий вибір страв, приготованих з любов’ю та лише зі свіжих
+        продуктів. Наші кухарі — справжні майстри своєї справи, які
+        щодня працюють над тим, щоб кожна страва дарувала незабутні
+        враження. Затишна атмосфера, привітний персонал і смачні наїдки
+        — усе це чекає на вас у «Смаку».
+    </p>
+
+    <!-- Адреса ресторану -->
+    <h3>Де ми знаходимося?</h3>
+    <p>
+        Ви знайдете нас за адресою:
+        <strong>вул. Київська, 12, м. Київ, Україна</strong>
+    </p>
+
+    <!-- Вбудована Google-карта з місцезнаходженням ресторану -->
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.9364076479333!2d30.523400415733416!3d50.45010047947559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfce72b1f149%3A0xa63e6973642cbb84!2z0LLRg9C70LjRhtGPINCa0LjQtdCy0YHQutCwLCAxMiwg0JrQuNGX0LLRgdGM0LrQsCDQmtC-0LvQvtCy0YHQutC-0LPQviwgMDIwMDA!5e0!3m2!1suk!2sua!4v1621406378770!5m2!1suk!2sua"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 10px;"
+            allowfullscreen=""
+            loading="lazy"
+        ></iframe>
+    </div>
+
+    <!-- Форма для залишення відгуків користувачами -->
+    <!-- Користувачі можуть залишати своє ім'я та коментар про ресторан -->
+    <div class="comments-section">
+        <h3>Залиште свій відгук:</h3>
+        <form id="commentForm">
+            <!-- Поле введення імені -->
+            <label for="name">Ім’я:</label>
+            <input type="text" id="name" name="name" required />
+
+            <!-- Поле введення тексту коментаря -->
+            <label for="comment">Відгук:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <!-- Кнопка для надсилання форми -->
+            <button type="submit">Надіслати</button>
+        </form>
+
+        <!-- Список, в якому динамічно відображатимуться всі додані коментарі -->
+        <h3>Відгуки:</h3>
+        <ul id="commentsList">
+            <!-- Сюди JavaScript буде додавати коментарі після надсилання -->
+        </ul>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <p>Контакти: вул. Київська, 12, тел: +380 99 123 4567, email: info@smaak.ua</p>
+    </footer>
+
+    <script>
+        
+        const commentForm = document.getElementById('commentForm');
+        const commentsList = document.getElementById('commentsList');
+
+        commentForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // щоб не оновлювалась сторінка
+
+            const nameInput = document.getElementById('name');
+            const commentInput = document.getElementById('comment');
+
+            const name = nameInput.value.trim();
+            const comment = commentInput.value.trim();
+
+            if (name && comment) {
+                // Створюємо новий елемент списку
+                const newComment = document.createElement('li');
+                newComment.innerHTML = `<strong>${escapeHTML(name)}</strong>: ${escapeHTML(comment)}`;
+                commentsList.appendChild(newComment);
+
+                // Очищаємо форму
+                nameInput.value = '';
+                commentInput.value = '';
+            } else {
+                alert('Будь ласка, заповніть обидва поля.');
+            }
+        });
+
+        // Функція для безпечного виводу тексту (щоб уникнути XSS)
+        function escapeHTML(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>
